@@ -5,7 +5,7 @@ forwards WebSocket writes to the remote TCP sockets and sends remote socket data
 
 ## Browser
 
-    var socket = new WebSocket('http://.../tunnel?remote=...&port=...')
+    var socket = new WebSocket('http://.../tunnel?host=...&port=...')
     
     // Respond to some data from the remote
     socket.onmessage = function(evt) { console.log(evt.data) }

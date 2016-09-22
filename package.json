@@ -17,9 +17,13 @@
     "tcp",
     "web",
     "socket",
-    "gateway", "tunnel", "bridge", "proxy"
+    "gateway",
+    "tunnel",
+    "bridge",
+    "proxy"
   ],
   "dependencies": {
+    "ws": "^1.1.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
